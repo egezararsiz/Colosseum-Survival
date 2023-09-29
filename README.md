@@ -1,4 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7281563&assignment_repo_type=AssignmentRepo)
 # Colosseum Survival!
 
 **Project Description & Template** : https://www.overleaf.com/read/gcpfjdpqpytp 
@@ -130,13 +129,22 @@ Here we show a gameplay describing a $`2`$-player game on a $`5\times 5`$ chessb
 
 The final score is $`A:B = 15:10`$. So A wins the game.
 
-## Issues? Bugs? Questions?
-
-Feel free to open an issue in this repository, or contact us in Ed thread.
-
 ## About
 
 This is a class project for COMP 424, McGill University, Winter 2022.
+
+## My Role
+
+I collaborated with Michael Lu in this project. You can find out about our detailed report [_here_](report/report.pdf). To summarize how we tackled this problem:
+
+- Researched strategies for agents to mimic human intelligence functions.
+- Analyzed the problem domain of the game "Colosseum Survival!" to understand its complexities and requirements.
+- Explored similar games like Chess, Go, and "Quoridor" to draw inspiration for the chosen approach.
+- Implemented a combination of Monte Carlo Tree Search (MCTS) and Alpha-Beta Pruning as the main search algorithm.
+- Designed and applied heuristics to optimize move selection within the 2-second time limit.
+- Ensured the agent could deterministically find winning moves, if available, without relying solely on random simulations.
+- Analyzed the advantages and disadvantages of the chosen approach, considering factors like speed, efficiency, and adaptability.
+- Identified areas for improvement and proposed future enhancements, including memory management and decision-based model move selection.
 
 ## License
 
